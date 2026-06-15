@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Serif+4:wght@300;400;500;600&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FDFCF9;
+  --foreground: #1C1C1B;
+  --muted: #6b6b6b;
+  --border: #e5e3dd;
+  --accent: #2C3E50;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.reading-column {
+  max-width: 680px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.hairline {
+  height: 1px;
+  background: var(--border);
+}
